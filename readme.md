@@ -1,4 +1,4 @@
-# EKM to Ebay Data Refactorisation
+# Woo Product Countdown Timer
 
 This plugin is designed to add a countdown timer to the product page in woocommerce. This countdown timer determains when the product will be delivered to the client once ordered.
 
