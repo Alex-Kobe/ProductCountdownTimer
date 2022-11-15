@@ -49,7 +49,7 @@ For the Holidays, You will be able to set the holidays. These holidays will make
 
 To install this plugin, you can download it from this repository. After this, you should have a wordpress instilation in which you should add this to the plugins folder. 
 
-- path-to-wp-instalation/wp-contents/plugins/myplugin
+- path-to-wp-instalation/wp-contents/plugins/
 
 After you have added the the plugin to your plugins folder, you can follow the steps below to get the plugin active.
 
@@ -58,8 +58,8 @@ After you have added the the plugin to your plugins folder, you can follow the s
 - Go into your wordpress dashboard & direct youself to your plugins section
 - Enable the plugin
 
-This will add a subdirectory to your sidebar and allow you to access the settings. Here you can change the settings previously spoken about in the document. To fiinish of, you will need to add shortcode to your products page where you would like to place your countdown timer. The shortcode should look like the below code.
+This will add a subdirectory to your sidebar and allow you to access the settings. Here you can change the settings previously spoken about in the document. To fiinish off, you will need to add shortcode to your products page where you would like to place your countdown timer. The shortcode should look like the below code.
 
 ```
-countdown_timer
+[ countdown_timer ]
 ```

@@ -1,10 +1,10 @@
 jQuery(function($) {
 	window.update_countdown_preview_html = function() {
-		if(gsct_settings['Countdown Settings']['enabled'] == 1){
+		if(ct_settings['Countdown Settings']['enabled'] == 1){
 			const now = moment();
-			const target = document.getElementById('gsct_target');
+			const target = document.getElementById('ct_target');
 			
-			const cutoff_time_str = gsct_settings['Countdown Settings']['cut_off_time'];
+			const cutoff_time_str = ct_settings['Countdown Settings']['cut_off_time'];
 			const cutoff_mins = time_to_minutes(cutoff_time_str); // return integer mins from 00:00
 			let cutoff_datetime = moment().startOf('day').add(cutoff_mins, 'minutes');
 					
@@ -16,9 +16,9 @@ jQuery(function($) {
 			if (cutoff_diff < 0) shipping_date.add(1, 'day');
 			
 			// If there are holidays on the days following this date, 1 day will be added recursively until there is no holiday
-			const holidays = gsct_settings['Holidays Settings'];
+			const holidays = ct_settings['Holidays Settings'];
 
-			const additional_days = gsct_settings['Countdown Settings']['countdown_offset'];
+			const additional_days = ct_settings['Countdown Settings']['countdown_offset'];
 			shipping_date = next_available_date(holidays, shipping_date, additional_days);
 			
 			let delivery_date = shipping_date.clone();

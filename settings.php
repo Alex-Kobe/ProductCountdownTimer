@@ -1,4 +1,4 @@
-<div id="gsct_admin_settings_page">
+<div id="ct_admin_settings_page">
     <section class="page_title_background">
         <div class="page_title">
             <h2>
@@ -78,7 +78,7 @@
                         <!-- Preview -->
                         <div class="form_body_part">
                             <label class="label" for="Preview">Preview</label>
-                            <div id="gsct_target" class="input"></div>
+                            <div id="ct_target" class="input"></div>
                         </div>
                     </div>
                 </div>
