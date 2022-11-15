@@ -1,0 +1,334 @@
+/* Global Settings  */
+.container{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+#footer-left, #footer-upgrade, #wpfooter{
+    display: none;
+}
+
+/* Reset */
+.toplevel_page_genuine_style_countdown_timer #wpcontent{ padding-left: 0; }
+.toplevel_page_genuine_style_countdown_timer #wpbody-content{ padding-bottom: 0; }
+
+@media screen and (max-width: 782px){ 
+    .auto-fold #wpcontent {
+        padding-left: 0
+    }
+}
+
+/* Top Header */
+#gsct_admin_settings_page .page_title_background{
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+#gsct_admin_settings_page .page_title{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+#gsct_admin_settings_page .page_title h2{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgb(31 41 55);
+    line-height: 1.25;
+}
+
+/* Setting Box (Countdown Settings) */
+#gsct_admin_settings_page .grid{
+    display: grid;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+#gsct_admin_settings_page .countdown_settings_section{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+#gsct_admin_settings_page .grid .countdown_title{
+    display: flex;
+    justify-content: space-between;
+}
+#gsct_admin_settings_page .grid .countdown_box{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#gsct_admin_settings_page .grid .countdown_box h3{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: rgb(31 41 55);
+}
+#gsct_admin_settings_page .grid .countdown_box p{
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(75 85 99);
+}
+#gsct_admin_settings_page .grid .countdown_title .empty_div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#gsct_admin_settings_page .grid .form{
+    margin-top: 1.25rem;
+}
+#gsct_admin_settings_page .grid .form_body_1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+#gsct_admin_settings_page .grid .form_body_grid{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+#gsct_admin_settings_page .grid .form_body_part{
+    grid-column: span 6 / span 6;
+}
+#gsct_admin_settings_page .grid .form_body_part .label{
+    display: block;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+#gsct_admin_settings_page .grid .form_body_part .input{
+    --tw-border-opacity: 1;
+    border-color: rgb(209 213 219 / var(--tw-border-opacity));
+    border-radius: 0.375rem;
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    margin-top: 0.25;
+    display: block;
+    width: 100%;
+}
+#gsct_admin_settings_page .grid .form_body_part .input:focus{
+    border-color: rgb(165 180 252);
+    box-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-color: rgb(199 210 254);
+    --tw-ring-opacity: 0.5;
+}
+#gsct_admin_settings_page .grid .form_body_2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.57rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+    text-align: right;
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+#gsct_admin_settings_page .grid .form_body_2 .button{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+#gsct_admin_settings_page .grid .form_body_2 .button:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+
+}
+#gsct_admin_settings_page .grid .form_body_2 .button:active{
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+#gsct_admin_settings_page .grid .form_body_2 .button:focus{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgb(17 24 39 / var(--tw-border-opacity));
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity));
+}
+#gsct_admin_settings_page .grid .form_body_2 .button:disabled{
+    opacity: 0.25;
+}
+
+/* Small */
+@media(min-width: 640px){ 
+    /* Global Settings  */
+    .container{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    /* Top Header */
+    #gsct_admin_settings_page .page_title{
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    /* Setting Box (Countdown Settings) */
+    #gsct_admin_settings_page .countdown_settings_section{
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+    #gsct_admin_settings_page .grid .countdown_box{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    #gsct_admin_settings_page .grid .countdown_title .empty_div{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    #gsct_admin_settings_page .grid .form_body_1{
+        padding: 2.5rem;
+        border-top-right-radius: 0.375rem;
+        border-top-left-radius: 0.375rem;
+    }
+    #gsct_admin_settings_page .grid .form_body_part{
+        grid-column: span 4 / span 4;
+    }
+    #gsct_admin_settings_page .grid .form_body_2{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        border-bottom-left-radius: 0.375rem/* 6px */;
+        border-bottom-right-radius: 0.375rem/* 6px */;
+    }
+}
+
+/* Medium */
+@media(min-width: 768px){
+    /* Setting Box (Countdown Settings) */
+    #gsct_admin_settings_page .grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+    #gsct_admin_settings_page .grid .title{
+        grid-column: span 1 / span 1;
+    }
+    #gsct_admin_settings_page .grid .form{
+        margin-top: 0rem;
+        grid-column: span 2 / span 2;
+    }
+}
+
+/* Large */
+@media(min-width: 1024px){
+    /* Global Settings  */
+    .container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    /* Top Header */
+    #gsct_admin_settings_page .page_title{
+        padding: 1.5rem 2rem 1.5rem 2rem;
+    }
+
+    /* Setting Box (Countdown Settings) */
+    #gsct_admin_settings_page .countdown_settings_section{
+        padding: 1.5rem 2rem 1.5rem 2rem;
+    }
+}
+
+/* x-Large */
+@media(min-width: 1280px){
+
+}
+
+/* 2x-Large */
+@media(min-width: 1536px){
+
+    
+}
+
+
+
+
+
+/* Holiday section Table */
+#holiday_table {
+	--accent-color: #362f4b;
+	--text-color: slategray;
+	--bgColorDarker: #e6e6e6;
+	--bgColorLighter: #fff;
+	--insideBorderColor: lightgray;
+	width: 100%;
+	margin: 2rem 0 0 0;
+	padding: 0;
+	border: 1px solid var(--accent-color);
+	border-collapse: collapse;
+	color: var(--text-color);
+	-layout: fixed;
+}
+
+#holiday_table thead tr {
+	color: whitesmoke;
+	background-color: var(--accent-color);
+	font-size: 1rem;
+}
+
+#holiday_table  tbody tr {
+	border: 1px solid var(--insideBorderColor);
+	background-color: var(--bgColorDarker);
+}
+
+#holiday_table tbody tr:nth-child(odd) {
+	background-color: var(--bgColorLighter);
+}
+
+#holiday_table th {
+	letter-spacing: 0.075rem;
+}
+
+#holiday_table th,
+#holiday_table td {
+	padding: 0.75rem 1rem;
+	font-weight: normal;
+	text-align: left;
+}
+
+#holiday_table th:nth-child(4),
+#holiday_table td:nth-child(4) {
+	text-align: right;
+}
+
+#holiday_table .button{
+    --tw-bg-opacity: 1;
+    background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+    padding-left: 0.675rem;
+    padding-right: 0.675rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.375rem;
+    margin-top: 0.25rem;
+}
